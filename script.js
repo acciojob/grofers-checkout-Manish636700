@@ -19,7 +19,7 @@ const price = document.querySelectorAll(".price");
 
 	const table = document.querySelector("table");
 	const totalRow = document.createElement("tr");
-    totalRow.id = "totalRow";
+    totalRow.id = "ans";
 
 	 const totalCell = document.createElement("td");
     totalCell.setAttribute("colspan", "2");
